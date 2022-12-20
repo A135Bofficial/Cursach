@@ -83,11 +83,13 @@ a.disabled{
 .button:not(:hover){
     transition: 0.5s;
 }
+a{
+    text-decoration: none;
+}
 .button p{
     margin: 4px 25px;
     font: 500 18px/24px Montserrat;
     color: white;
-    text-decoration: none;
 }
 .button:hover p{
     color: rgb(0, 0, 0);

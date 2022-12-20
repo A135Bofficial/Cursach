@@ -146,19 +146,19 @@
     justify-content: center;
     align-items: center;
 }
-.submain3_button button{
+.submain3_button div{
     border: solid black 3px;
     background: transparent;
     border-radius: 30px;
     margin: 0px;
     padding: 0px;
 }
-.submain3_button button:hover{
+.submain3_button div:hover{
     cursor: pointer;
     border-radius: 40px;
     transition: .5s;
 }
-.submain3_button button:not(:hover){
+.submain3_button div:not(:hover){
     transition: .5s;
 }
 .submain3_button p{
@@ -166,13 +166,13 @@
     font: 900 29px/35px Montserrat;
     color: black;
 }
-.submain3_button button:hover p{
+.submain3_button div:hover p{
     cursor: pointer;
     margin: 13px 70px;
     font: 900 33px/35px Montserrat;
     transition: 2s;
 }
-.submain3_button button:not(:hover) p{
+.submain3_button div:not(:hover) p{
     transition: 2s;
 }
 .submain3_content{
@@ -265,14 +265,14 @@
         font-size: 6vw;
         padding-left: 0px;
     }
-    .submain3_button button{
+    .submain3_button div{
         border: solid black 2px;
     }
     .submain3_button p{
         margin: 0.6vw 6vw;
         font-size: 3vw;
     }
-    .submain3_button button:hover p{
+    .submain3_button div:hover p{
         margin: 0.6vw 8vw;
         font-size: 3vw;
     }
