@@ -20,6 +20,10 @@ body{
     width: 100%;
     padding: 0px 105px;
 }
+.picture{
+    overflow: hidden;
+    max-width: 103px;
+}
 .not_picture{
     display: flex;
     align-items: center;
@@ -76,7 +80,6 @@ a.disabled{
 }
 .button:hover{
     cursor: pointer;
-    /*background: rgba(5, 5, 70, 0.8);*/
     background: rgba(255, 255, 255, 0.8);
     transition: 0.5s;
 }
@@ -115,6 +118,11 @@ a{
     justify-content: space-between;
     align-items: center;
 }
+.footer_img{
+    width: 103px;
+    height: 98px;
+    overflow: hidden;
+}
 .footer_item{
     display: flex;
     flex-direction: column;
@@ -129,9 +137,13 @@ a{
         height: 15vh;
         min-height: 20px;
     }
-    .header_content .picture img{
+    .header_content .picture{
         width: 10vw;
         min-width: 31px;
+    }
+    .header_content .picture img{
+        width: 100%;
+        object-fit: cover;
     }
     .burger {
         display: flex;
