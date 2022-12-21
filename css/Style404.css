@@ -1,0 +1,84 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 100vw;
+    height: 30vh;
+    background: rgba(2, 18, 100, 65%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box p{
+    font-size: 100px;
+    font-family: Grape Nuts;
+    color: white;
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.words{
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.words p{
+    font: 900 20px/24px Montserrat;
+    margin: 10px 0px;
+}
+.button-submit{
+    width: 170px;
+    height: 62px;
+    background: rgba(2, 0, 107, 1);
+    border-radius: 10px;
+    font: 700 20px/24px Montserrat;
+    color: white;
+    border: 2px solid transparent;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.button-submit:hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(2, 0, 107, 1);
+    color: black;
+    transition: 0.5s;
+}
+.button-submit:not(:hover){
+    transition: 0.5s;
+}
+@media(max-width: 800px){
+    .box p{
+        font-size: 12.5vw;
+    }
+    .words p{
+        font: 900 2.5vw/24px Montserrat;
+        margin: 1.1vh 0px;
+    }
+    .button-submit{
+        width: 20vw;
+        min-width: 80px;
+        height: 6vh;
+        min-height: 40px;
+        font: 700 15px/19px Montserrat;
+    }
+}
+@media(max-width: 480px){
+    .button-submit{
+        font: 700 2.5vw/16px Montserrat;
+        min-width: 30px;
+        min-height: 20px;
+    }
+}
